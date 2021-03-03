@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin :0;
+  padding:0;
+  height:100%;
+  font-family: 'Lato',"微軟正黑體", "Microsoft JhengHei", sans-serif;
+  font-size: 16px;
+  color: #303030;
+  width: 100%;
+  
+  /*min-width: 320px;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.LatoFont{
+  font-family: 'Lato',"微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+.Lato-light{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.Lato-Regular{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; 
+}
+.Lato-bold{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.DM-Regular{
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 400; 
+}
+.OpenSans-light{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.OpenSans-Regular{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+}
+.OpenSans-Semi-bold{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+}
+.OpenSans-bold{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+span{
+	margin: 0;
+	padding: 0;
+}
+fieldset,img{
+	border:0;
+	word-break:break-all;
+}
+a,a:hover,a:active,input,button{
+	outline:none !important;
+	text-decoration: none !important;
+}
+a:hover{
+  outline:none !important;
+  text-decoration: none !important;
+}
+
+
+/*
+ol,ul {list-style:none;}
+*/
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #595959 !important;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.img-responsive{
+  width: 100%;
+  min-width:100%;
+  height: auto;
+}
+.img-maxwidth{
+  max-width:100%;
+  height: auto;
+}
+.img-maxwidth img{
+  max-width:100%;
+  height: auto;
+}
+
+/*youtube responsive*/
+.video-content {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px; 
+    height: 0; 
+    overflow: hidden;
+}
+   
+.video-content iframe,
+  .video-content object,
+    .video-content embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding-top: 15px; 
+}
+
+/*垂直居中 包3層*/
+.centerbox-box{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.centerbox-table{
+  display:table;
+  width: 100%;
+  height: 100%;  
+}
+.centerbox-cell{
+  display:table-cell;
+  vertical-align:middle; 
+}
+.centerbox-td{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.bold{
+  font-weight: bold !important;
+}
+
+::placeholder {
+  letter-spacing: 0.8px;
+  color: #000;
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  letter-spacing: 0.8px;
+  color: #000;
+  font-size: 16px;
+}
+::-ms-input-placeholder {
+  letter-spacing: 0.8px;
+  color: #000;
+  font-size: 16px;
+}
+
+.pagelist{
+  position: relative;
+  margin-top: 80px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #3DB8DC;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #3DB8DC;
+  border-color: #3DB8DC;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.w-20 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (min-width: 576px) {
+  .w-sm-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .w-xl-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

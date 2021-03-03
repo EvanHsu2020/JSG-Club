@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+body {
+	overflow-x: hidden;
+	-webkit-text-size-adjust:none;
+	-webkit-overflow-scrolling: touch;
+}
+
+.section{
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	padding: 40px 40px;
+}
+.paddingy-15{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.section-b{
+	position: relative;
+	width: 100%;
+	max-width: 1600px;
+	height: auto; 
+	margin: 0px auto;
+	padding: 15px 15px;
+}
+.section-content{
+	position: relative;
+	width: 100%;
+	max-width: 1440px;
+	height: auto;
+	margin: 0px auto;
+	padding: 15px 15px;
+}
+.section-m{
+	position: relative;
+	width: 100%;
+	max-width: 920px;
+	height: auto;
+	margin: 0px auto;
+	padding: 15px 15px;
+}
+
+
+
+.topAlert{
+	position: relative;
+	width: 100%;
+	min-height: 70px;
+	background-color: #3071BB;
+}
+
+.topAlert .info{
+	position: relative;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 24px 80px 24px 80px;
+	line-height: 22px;
+}
+.topAlert .topinfo{
+	position: absolute;
+	top: 23px;
+	left: 40px;
+	display: block;
+}
+.topAlert .topinfo-close{
+	position: absolute;
+	top: 25px;
+	right: 40px;
+	display: block;
+}
+
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin: 0px auto;
+	padding: 0px 40px;
+}
+
+.header .logo{
+	position: absolute;
+	top: 55px;
+	left: 40px;
+	width: 228px;
+	height: auto;
+	display: block;
+}
+.header .menu{
+	position: absolute;
+	top: 10px;
+	right: 40px;
+	display: block;
+}
+
+.header .menuxs{
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	display: block;
+}
+
+.header .search-box{
+	position: absolute;
+	bottom: 0px;
+	right: 40px;
+	display: block;
+	height: 60px;
+}
+
+.search-box .txt{
+	position: relative;
+	font-size: 30px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #000000;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.search-box .keyword-box{
+	position: relative;
+	display: inline-block;
+}
+
+.search-box .keyword-box .keyword{
+	position: relative;
+	border-bottom: 1px solid #E5AD64;
+    background-image: url(../images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 36px 36px;
+}
+
+.search-box .keyword-box .keyword input{
+	position: relative;
+	border:none;
+	background-color: transparent;
+	width: 400px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 30px;
+	color: #818181;
+}
+
+.search-box .sbtn{
+	position: relative;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.custbtn1{
+	position: relative;
+	width: 177px;
+	height: 54px;
+	background: linear-gradient(60deg, #ECCFA9 68%, #FBF8E8 92%);
+	background: -moz-linear-gradient(60deg, #ECCFA9 68%, #FBF8E8 92%);
+	background: -webkit-linear-gradient(60deg, #ECCFA9 68%, #FBF8E8 92%);
+	background: -o-linear-gradient(60deg, #ECCFA9 68%, #FBF8E8 92%);
+	border-radius: 27px;
+	-webkit-border-radius: 27px;
+	-moz-border-radius: 27px;
+	box-shadow: 20px 20px 50px rgba(193,137,63,0.3);
+	-webkit-box-shadow: 19px 19px 50px rgba(193,137,63,0.3);
+	-moz-box-shadow: 19px 19px 50px rgba(193,137,63,0.3);
+	border: 0;
+}
+.custbtn1 span{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #FFF;
+	text-shadow: rgb(3, 3, 3,.3) 0px 3px 4px;
+}
+
+.custbtn1:hover span{
+	text-shadow: rgb(3, 3, 3,.5) 0px 3px 4px;
+}
+
+.btitle{
+	font-size: 60px;
+	line-height: 60px;
+	color: #E5AD64;
+}
+
+.custbtn1.small{
+	width: 102px;
+	height: 54px;
+}
+
+
+.mapinfo{
+	margin-top: 20px;
+}
+
+
+/* Search Offers */
+
+.searchbox-head{
+    position: relative;
+    width: 100%;
+    min-height: 173px;
+    background-image: url(../images/search/search-bar.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+
+
+.searchbox-right a.item{
+	position: relative;
+	margin-bottom: 15px;
+	display: block;
+}	
+
+.filters-result-box{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	padding-left: 30px;
+}
+
+.filters-result-bar .t1{
+	position: relative;
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 10px;
+}
+.filters-result-bar .wordlist{
+	position: relative;
+	display: inline-block;
+}
+
+.filters-result-bar .wordlist .ls{
+	position: relative;
+	display: inline-block;
+	background-color: #E5AD64;
+	height: 20px;
+	width: auto;
+	border-radius:10px;
+	padding: 0px 45px 0px 15px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+.filters-result-bar .wordlist .filters-clear{
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	display: block;
+	width: 16px;
+	height: 16px;
+    background-image: url(../images/clear-white-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.filters-result-bar .filters-clearall{
+	position: relative;
+	display: inline-block;
+	color: #FF8526;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	text-decoration:underline !important;
+}
+
+
+
+.orange-btn {
+  width: 230px;
+  height: 60px;
+  margin: 20px 35px 20px 35px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 25px 0 rgba(193, 137, 63, 0.3);
+  background-color: #ff8526;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #FFF;
+}
+.orange-btn:hover{
+  background-color: #FF7B0F;
+  color: #FFF;
+}
+
+.OffersModal{
+	max-width: 890px;
+	height: auto; 
+	display: none;
+	border-radius:35px;
+	padding: 150px 50px 50px 50px !important;
+	text-align: center;
+}
+
+.popup-icon-close{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	display: block;
+}
+
+.OffersModal .logo{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 148px;
+	height: auto;
+	display: block;
+}
+.OffersModal .logo img{
+	width: 148px;
+	height: auto;
+	display: inline-block;
+}
+.OffersModal .qrcode{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline-block;
+}
+.OffersModal .qrcode img{
+	max-width: 100%;
+	height: auto;
+	padding: 50px;
+	border:1px #000000 solid;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mapinfo{
+	position: relative;
+	margin-top:-5px;
+}
+.adinfo{
+	position: relative;
+}
+
+
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1199px) {
+	.header{
+		position: relative;
+		width: 100%;
+		height: 100px;
+		margin: 0px auto;
+		padding: 0px 40px;
+	}
+	.header .search-box{
+		display: none;
+	}
+	.header .logo{
+		position: absolute;
+		top: 35px;
+		left: 40px;
+		width: 121px;
+		height: auto;
+		display: block;
+	}
+
+	.btitle{
+		font-size: 42px;
+		line-height: 50px;
+		color: #000;
+	}
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+.searchbox-head{
+    position: relative;
+    width: 100%;
+    min-height: 173px;
+    background-image: url(../images/search/search-bar-xs.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.OffersModal .qrcode img{
+	padding: 30px;
+}
+.adinfo{
+	position: relative;
+	margin-top: 50px;
+}
+}
+
+@media (max-width: 575px) {
+.OffersModal{
+	border-radius:25px;
+	padding: 150px 30px 30px 30px !important;
+}
+.OffersModal .logo{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+}
+.OffersModal .qrcode img{
+	padding: 10px;
+}
+}
+
+@media (max-width: 360px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 360px) {
+
+}
